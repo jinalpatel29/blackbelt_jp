@@ -1,0 +1,11 @@
+<div class="home">
+<form (submit)="onSubmit(name)">
+  Your Name:
+  <input type="text" name="name" [(ngModel)]="name" placeholder="Please enter name here">
+  <br>
+  <br>
+  <button type="submit">Login
+    <!-- <a [routerLink]="['/new']">Create User</a> -->
+  </button>
+</form>
+</div>
